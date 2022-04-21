@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F9F9F9;
+    position: relative;
+}
+.section{
+    background-color: #ffffff;
+    margin-bottom: 8px;
+    padding: 0 10px;
+
+}
+
+.show-area .slider{
+    height: 433px;
+    /* width: 433px; */
+    position: relative;
+}
+.show-area .slider img{
+    height: 100%;
+    width: 100%;
+}
+.show-area .slider .page-number{
+    position: absolute;
+    right: 20px;
+    bottom: 24px;
+    width: 50px;
+    height: 25px;
+    background-color: #CCCCCC;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    border-radius: 5px;
+}
+.show-area .price-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 74px; */
+}
+.show-area .price-area .price{
+    display: flex;
+    align-items: center;
+}
+.price-area{
+    margin-bottom: 28px;
+}
+.price-area .price .current-price{
+    font-size: 28px;
+    color: #DD7258;
+    margin-right: 5px;
+}
+.price-area .price .last-price{
+    font-size: 18px;
+    color: #B1B1B1;
+}
+.price-area .visited-number{
+    font-size: 18px;
+    color: #C2C2C2;
+}
+.show-area .book-area{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.book-area .book-name{
+    font-size: 23px;
+}
+.book-area .book-extra{
+    font-size: 20px;
+}
+.show-area .delivery-area{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #EFEFEF;
+
+}
+.delivery-area .title{
+    font-size: 20px;
+    margin-right: 20px;
+    color: #7f7f7f;
+}
+.delivery-area .detail{
+    font-size: 20px;
+}
+.delivery-area .detail .method{
+    margin-bottom: 10px;
+}
+.delivery-area .detail .time{
+    color: #B2B2B2;
+    font-size: 16px;
+}
+.recommend-area{
+    padding-top: 20px;
+}
+.recommend-area .title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.recommend-area .title .left-title{
+    font-weight: 500;
+}
+.recommend-area .title .more{
+    color: #B2B2B2;
+}
+.recommend-area .product-list{
+    display: flex;
+    justify-content: space-around;
+}
+.product-list .product-item .book-cover{
+    width: 110px;
+    height: 125px;
+}
+.product-list .product-item .book-cover img{
+    width: 100%;
+}
+.product-list .product-item .book-name{
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+.product-list .product-item .book-price{
+    font-size: 19px;
+    color: #DD7258;
+    margin-bottom: 16px;
+}
+.detail-area{
+    padding-top: 20px;
+    font-size: 18px;
+}
+.detail-area .title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.detail-area .content p{
+    line-height: 170%;
+}
+.navbar{
+    height: 56px;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    border-top: 2px solid #F6F6F6;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.navbar .icon-list{
+    flex: 0.65;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 146px;
+    margin-right: 15px;
+
+}
+.navbar .icon-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar .icon-item img{
+    width: 26px;
+    height: 26px;
+    margin-bottom: 6px;
+}
+.navbar .btn-list{
+    display: flex;
+    position: relative;
+    width: 130px;
+    /* flex: 0.9; */
+}
+.navbar .btn-list .shopping-card{
+    width: 125px;
+    height: 40px;
+    background-color: #F7F7F7;
+    color: #DD7258;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar .btn-list .buy{
+    width: 77px;
+    height: 77px;
+    background-color: #eD7955;
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 77px;
+    position: absolute;
+    left: 111px;
+    top: -30px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 0 0 1px #B2B2B2;
+}
